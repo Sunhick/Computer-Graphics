@@ -1,0 +1,21 @@
+I plan to create a Opengl program that will illustrate a street view of a city. 
+I will create all required objects myself (no canned glut objects). which means 
+all the normals will be calcuated by myself.
+
+The scene will consists of a roads, houses, apartments, trucks, traffic signals,
+trees and windmill. I will use textures and lights to all of my objects in the scene 
+to make the street view as realistic as possible.
+
+The trucks could be moved around in the street either animation or through user input
+(accelerate, brake, turn left or right). I will use sound effects for the truck movements. 
+I also plan to do a collision detection so that the truck will not go off the road. 
+
+I will also provide the option of first person navigation in the scene. 
+
+If time permits, I will add navigation of the scene from inside of the truck.
+
+My stretch goals are to have a good visual effect of the truck when it hits an object like
+house or traffic light pole so that the truck is either destroyed or disfigured with a sound 
+effect. 
+
+
