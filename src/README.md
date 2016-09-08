@@ -13,48 +13,26 @@ Executable: ./final
 
 ## KEY BINDINGS:
 
----
-Key              Description
----
-0               Reset the view / game (DRIVE MODE)
-
-X               Look down at x-axis
-Y               Look down at y-axis
-Z               Look down at z-axis
-
-m               Switch between different modes
-                (EXPLORE MODE- first person navigation, 
-                 DRIVE MODE - drive the truck around the 
-                 		scene with collision detection enabled)
-
-s 				Toggle lighting(Enable/disable)
-
-+               Increase field of view
-
--               Decrease field of view
-
-A               Toggle axes visibility
-
-Arrow keys      To look left, right, up and down
-                    (EXPLORE MODE)
-
-f               Move forward into the scene
-                    (EXPLORE MODE)
-
-b               Move backward away from the scene
-                    (EXPLORE MODE)
-
-w 				Increase the speed of the truck / steer forward (DRIVE MODE)
-
-z 				Decrease the speed of the truck / steer backward(DRIVE MODE)
-
-a 				Steer left (DRIVE MODE)
-
-d 				Steer right (DRIVE MODE)
-
-space 			Hand brake
-
-ESC             Quit application
+| Key   |           Description |
+|---------|----------------------|
+|0     |          Reset the view / game (DRIVE MODE)|
+|X  |             Look down at x-axis|
+|Y   |            Look down at y-axis|
+|Z    |           Look down at z-axis|
+|m  |             Switch between different modes (EXPLORE MODE- first person navigation, DRIVE MODE - drive the truck around the scene with collision detection enabled) |
+|s |				Toggle lighting(Enable/disable)|
+|+  |             Increase field of view|
+|-|               Decrease field of view|
+|A  |             Toggle axes visibility|
+|Arrow keys |     To look left, right, up and down (EXPLORE MODE)|
+|f  |             Move forward into the scene (EXPLORE MODE)|
+|b  |             Move backward away from the scene (EXPLORE MODE)|
+|w 	|			Increase the speed of the truck / steer forward (DRIVE MODE)|
+|z 	|			Decrease the speed of the truck / steer backward(DRIVE MODE)|
+|a 	|			Steer left (DRIVE MODE)|
+|d | 				Steer right (DRIVE MODE)|
+|space | 			Hand brake|
+|ESC     |        Quit application|
 ---
 
 PROUD OF:
