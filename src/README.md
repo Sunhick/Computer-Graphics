@@ -1,21 +1,21 @@
 The program has two modes of execution -
 
-1. EXPLORE MODE: which provides a first person navigation in the scene.
+1. **EXPLORE MODE:** which provides a first person navigation in the scene.
 
-2. DRIVE MODE: where the user can move the truck around the scene on the road. When the user 
+2. **DRIVE MODE:** where the user can move the truck around the scene on the road. When the user 
 drives off the road, it will be indicated by a text in the lower bottom corner. The status messages includes "On road", "Off road", "Hit by a truck", "Hit by a house" and "Hit by a tree".  The user can drive the truck front, back, steer left and right.
 
-===================================================================
+---
 
 Compile:    make
 Executable: ./final
 
 
-KEY BINDINGS:
+## KEY BINDINGS:
 
-===================================================================
+---
 Key              Description
-===================================================================
+---
 0               Reset the view / game (DRIVE MODE)
 
 X               Look down at x-axis
@@ -55,7 +55,7 @@ d 				Steer right (DRIVE MODE)
 space 			Hand brake
 
 ESC             Quit application
-====================================================================
+---
 
 PROUD OF:
 
