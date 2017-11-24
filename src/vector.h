@@ -10,9 +10,9 @@
 #define vector_h
 
 struct vector{
-    double x;
-    double y;
-    double z;
+  double x;
+  double y;
+  double z;
 };
 
 struct vector cross_product(struct vector one, struct vector two);

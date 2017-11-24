@@ -21,29 +21,29 @@ extern double zh;
  **********************************************************/
 void wings()
 {
-    // supporting pole for wings
-    glPushMatrix();
-    glRotated(180,1,0,0);
-    glScaled(.3,.3,3);
-    Cylinder(1,.5,255,255,255);
-    glPopMatrix();
+  // supporting pole for wings
+  glPushMatrix();
+  glRotated(180,1,0,0);
+  glScaled(.3,.3,3);
+  Cylinder(1,.5,255,255,255);
+  glPopMatrix();
     
-    glBindTexture(GL_TEXTURE_2D, tex[9]);
+  glBindTexture(GL_TEXTURE_2D, tex[9]);
     
-    // 1st wing
-    //cube(0,0,0, 2,.4,0.9, 0, 1,0,0);
-    glPushMatrix();
-    glRotated(zh, 0,0,1);
-    glScaled(.4,4,.2);
-    Cube(1,1,1);
-    glPopMatrix();
+  // 1st wing
+  //cube(0,0,0, 2,.4,0.9, 0, 1,0,0);
+  glPushMatrix();
+  glRotated(zh, 0,0,1);
+  glScaled(.4,4,.2);
+  Cube(1,1,1);
+  glPopMatrix();
     
-    // 2nd wing
-    glPushMatrix();
-    glRotated(zh + 90, 0,0,1);
-    glScaled(.4, 4, .2);
-    Cube(1,1,1);
-    glPopMatrix();
+  // 2nd wing
+  glPushMatrix();
+  glRotated(zh + 90, 0,0,1);
+  glScaled(.4, 4, .2);
+  Cube(1,1,1);
+  glPopMatrix();
 }
 
 /**********************************************************
@@ -51,34 +51,34 @@ void wings()
  **********************************************************/
 void DrawWindmill()
 {
-    glBindTexture(GL_TEXTURE_2D, tex[8]);
+  glBindTexture(GL_TEXTURE_2D, tex[8]);
     
-    // draw the base
-    glPushMatrix();
-    glRotated(90,1,0,0);
-    glScaled(2, 2, 2);
-    Cylinder(1,.5,255, 255, 255);
-    glPopMatrix();
+  // draw the base
+  glPushMatrix();
+  glRotated(90,1,0,0);
+  glScaled(2, 2, 2);
+  Cylinder(1,.5,255, 255, 255);
+  glPopMatrix();
     
-    // draw the pole
-    glPushMatrix();
-    glRotated(-90,1,0,0);
-    glScaled(.5, .5, 15);
-    Cylinder(1,.5,255,255,255);
-    glPopMatrix();
+  // draw the pole
+  glPushMatrix();
+  glRotated(-90,1,0,0);
+  glScaled(.5, .5, 15);
+  Cylinder(1,.5,255,255,255);
+  glPopMatrix();
     
-    // windmill holder
-    glPushMatrix();
-    sphere(.1, 7.9, 0, .5);
-    glPopMatrix();
+  // windmill holder
+  glPushMatrix();
+  sphere(.1, 7.9, 0, .5);
+  glPopMatrix();
     
-    // wings
-    glPushMatrix();
-    glTranslated(0,8,2);
-    wings();
-    glPopMatrix();
+  // wings
+  glPushMatrix();
+  glTranslated(0,8,2);
+  wings();
+  glPopMatrix();
     
-    ErrCheck("DrawWindmill");
+  ErrCheck("DrawWindmill");
 }
 
 ///**********************************************************
