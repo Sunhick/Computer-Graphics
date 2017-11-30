@@ -6,8 +6,8 @@
 //  Copyright © 2016 Sunil. All rights reserved.
 //
 
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef SRC_MAIN_H_
+#define SRC_MAIN_H_
 
 #include <CSCIx229.h>
 
@@ -16,19 +16,9 @@
 /**********************************************************
  * Modes of viewing
  **********************************************************/
-enum MODE {
-  DRIVE = 0,
-  EXPLORE,
-  WORLD_VIEW
-};
+enum MODE { DRIVE = 0, EXPLORE, WORLD_VIEW };
 
-enum DIRECTION {
-  LEFT = 0,
-  RIGHT,
-  FORWARD,
-  BACKWARD,
-  HALT
-};
+enum DIRECTION { LEFT = 0, RIGHT, FORWARD, BACKWARD, HALT };
 
 /**********************************************************
  * point 3d
@@ -57,4 +47,4 @@ struct Color {
   double blue;
 };
 
-#endif /* MAIN_H */
+#endif  // SRC_MAIN_H_

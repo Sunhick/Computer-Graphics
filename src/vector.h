@@ -6,10 +6,10 @@
 //  Copyright © 2016 Sunil. All rights reserved.
 //
 
-#ifndef vector_h
-#define vector_h
+#ifndef SRC_VECTOR_H_
+#define SRC_VECTOR_H_
 
-struct vector{
+struct vector {
   double x;
   double y;
   double z;
@@ -18,5 +18,4 @@ struct vector{
 struct vector cross_product(struct vector one, struct vector two);
 struct vector normalize(struct vector one);
 
-
-#endif /* vector_h */
+#endif  // SRC_VECTOR_H_

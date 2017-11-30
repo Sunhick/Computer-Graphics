@@ -6,9 +6,9 @@
 //  Copyright © 2016 Sunil. All rights reserved.
 //
 
-#ifndef house_h
-#define house_h
+#ifndef SRC_HOUSE_H_
+#define SRC_HOUSE_H_
 
 #include <stdio.h>
 
-#endif /* house_h */
+#endif  // SRC_HOUSE_H_
